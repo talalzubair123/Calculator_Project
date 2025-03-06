@@ -8,6 +8,7 @@ class Program
         Console.Write("Enter two numbers: ");
         a = int.Parse(Console.ReadLine());
         b = int.Parse(Console.ReadLine());
+       subtraction
        multiplication
         division
 
@@ -20,6 +21,9 @@ class Program
 
         Console.WriteLine($"Difference: {a - b}");
         subtraction
+
+        Console.WriteLine($"Sum: {a + b}");
+        addition
     }
 }
 
