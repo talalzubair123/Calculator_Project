@@ -4,7 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Name: Your Name");
-        Console.WriteLine("Roll Number: Your Roll Number");
+        int a, b;
+        Console.Write("Enter two numbers: ");
+        a = int.Parse(Console.ReadLine());
+        b = int.Parse(Console.ReadLine());
+        Console.WriteLine($"Sum: {a + b}");
     }
 }
